@@ -416,7 +416,7 @@
                             "python3 -m pip install boto3",
                             "python3 -m pip install faker",
                             "mkdir /home/cloud_user/.aws\necho -e '[default]\\nregion = us-east-1' > /home/cloud_user/.aws/config\n",
-                            "curl --silent \"https://raw.githubusercontent.com/linuxacademy/content-lambda-boto3/master/Triggering-Lambda-from-SQS/send_message.py\" -o /home/cloud_user/send_message.py\nchmod a+x /home/cloud_user/send_message.py\n"
+                            "curl --silent \"https://raw.githubusercontent.com/phuongluuho/phuonglh009/main/send_message.py\" -o /home/cloud_user/send_message.py\nchmod a+x /home/cloud_user/send_message.py\n"
                             
                          ] ]
                     }
