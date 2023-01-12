@@ -193,7 +193,7 @@ Resources:
   BastionEC2: 
     Type: AWS::EC2::Instance
     Properties: 
-      ImageId: "ami-0e999cbd62129e3b1"
+      ImageId: "ami-0b5eea76982371e91"
       InstanceType: !Ref InstanceTypeParameter
       UserData:
         Fn::Base64:
