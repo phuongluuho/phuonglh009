@@ -1,6 +1,6 @@
 {
     "Resources": {
-        "catpics": {
+        "catimgs": {
             "Type": "AWS::S3::Bucket"
         }
     }
