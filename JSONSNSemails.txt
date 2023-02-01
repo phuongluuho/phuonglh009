@@ -1,0 +1,17 @@
+{
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "MySQSPolicy001",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "SQS:*",
+      "Resource": "arnName-SQS-Queue",
+      "Condition": {
+        "ArnEquals": {
+          "aws:SourceArn": "arnNam-SNS-Topic"
+        }
+      }
+    }
+  ]
+}
