@@ -1,5 +1,5 @@
 # Lesson: Elastic Beanstalk
-# URL: https://learn.acloud.guru/course/certified-solutions-architect-associate/learn/21359b7a-a8b4-4d08-8e30-48623869199f/e3662bd5-361e-43a7-9afc-c2c2f5c921e2/watch
+
 
 # To create your example application, you'll use the 'Create application' console wizard. It creates an Elastic Beanstalk application and launches an environment within it. An environment is the collection of AWS resources required to run your application code.
 
